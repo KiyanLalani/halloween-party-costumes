@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spooky Halloween Costume List</title>
+    <style>
+        body {
+            font-family: 'Creepster', cursive;
+            background-color: #1a1a1a;
+            color: #ff6600;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            font-size: 3em;
+            text-shadow: 2px 2px 4px #000000;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        li {
+            background-color: #2a2a2a;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 0 10px rgba(255, 102, 0, 0.3);
+        }
+        li:hover {
+            transform: scale(1.02);
+            transition: transform 0.3s ease;
+        }
+        .costume {
+            font-weight: bold;
+            color: #ff9900;
+        }
+        @keyframes flicker {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.8; }
+        }
+        .jack-o-lantern {
+            font-size: 1.5em;
+            animation: flicker 2s infinite;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎃 Halloween Party Costume List 🎃</h1>
+    <ul>
+        <li><span>Hannah</span> <span class="costume">D</span></li>
+        <li><span>Grace</span> <span class="costume">L</span></li>
+        <li><span>Lucie</span> <span class="costume">A</span></li>
+        <li><span>Charlotte</span> <span class="costume">G</span></li>
+        <li><span>Joe</span> <span class="costume">O</span></li>
+        <li><span>Kiyan</span> <span class="costume">S</span></li>
+        <li><span>Barnaby</span> <span class="costume">M</span></li>
+        <li><span>Sofia</span> <span class="costume">U</span></li>
+        <li><span>Rory</span> <span class="costume">W</span></li>
+        <li><span>Nick</span> <span class="costume">K</span></li>
+        <li><span>Marcus</span> <span class="costume">C</span></li>
+        <li><span>Carissa</span> <span class="costume">E</span></li>
+        <li><span>Sam O</span> <span class="costume">V</span></li>
+        <li><span>Ben</span> <span class="costume">I</span></li>
+        <li><span>Liam</span> <span class="costume">B</span></li>
+        <li><span>Harry</span> <span class="costume">R</span></li>
+        <li><span>Dan K</span> <span class="costume">T</span></li>
+        <li><span>Dan R</span> <span class="costume">J</span></li>
+        <li><span>Ewan</span> <span class="costume">H</span></li>
+        <li><span>Jack</span> <span class="costume">N</span></li>
+        <li><span>Sam C</span> <span class="costume">P</span></li>
+    </ul>
+    <div style="text-align: center; margin-top: 20px;">
+        <span class="jack-o-lantern">🎃</span>
+        <span class="jack-o-lantern">👻</span>
+        <span class="jack-o-lantern">🎃</span>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webfont/1.6.28/webfontloader.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Creepster']
+            }
+        });
+    </script>
+</body>
+</html>
